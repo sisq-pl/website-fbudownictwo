@@ -209,18 +209,18 @@
       </div>
 
       <div class="gallery-grid reveal">
-        <a class="gallery-item" href="https://www.facebook.com/fbudownictwo" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="gallery-item" data-lightbox-trigger data-full="assets/img/portfolio/photo-01.jpg" data-caption="Prace izolacyjne przy fundamencie budynku">
           <img src="assets/img/portfolio/photo-01.jpg" alt="Prace izolacyjne przy fundamencie budynku" width="900" height="900" loading="lazy">
-        </a>
-        <a class="gallery-item" href="https://www.facebook.com/fbudownictwo" target="_blank" rel="noopener noreferrer">
+        </button>
+        <button type="button" class="gallery-item" data-lightbox-trigger data-full="assets/img/portfolio/photo-02.jpg" data-caption="Budynek jednorodzinny przed rozpoczęciem prac remontowych">
           <img src="assets/img/portfolio/photo-02.jpg" alt="Budynek jednorodzinny przed rozpoczęciem prac remontowych" width="900" height="900" loading="lazy">
-        </a>
-        <a class="gallery-item" href="https://www.facebook.com/fbudownictwo" target="_blank" rel="noopener noreferrer">
+        </button>
+        <button type="button" class="gallery-item" data-lightbox-trigger data-full="assets/img/portfolio/photo-03.jpg" data-caption="Zrealizowana inwestycja — dom jednorodzinny z zagospodarowanym otoczeniem">
           <img src="assets/img/portfolio/photo-03.jpg" alt="Zrealizowana inwestycja — dom jednorodzinny z zagospodarowanym otoczeniem" width="900" height="900" loading="lazy">
-        </a>
-        <a class="gallery-item" href="https://www.facebook.com/fbudownictwo" target="_blank" rel="noopener noreferrer">
+        </button>
+        <button type="button" class="gallery-item" data-lightbox-trigger data-full="assets/img/portfolio/photo-04.jpg" data-caption="Betonowanie na placu budowy przy użyciu pompy do betonu">
           <img src="assets/img/portfolio/photo-04.jpg" alt="Betonowanie na placu budowy przy użyciu pompy do betonu" width="900" height="900" loading="lazy">
-        </a>
+        </button>
       </div>
 
       <div class="projects-more reveal">
@@ -298,6 +298,22 @@
   </section>
 
 </main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia" aria-hidden="true" hidden>
+  <button type="button" class="lightbox-close" data-lightbox-close aria-label="Zamknij podgląd">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <button type="button" class="lightbox-nav lightbox-prev" data-lightbox-prev aria-label="Poprzednie zdjęcie">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <figure class="lightbox-figure">
+    <img src="" alt="" class="lightbox-image">
+    <figcaption class="lightbox-caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox-nav lightbox-next" data-lightbox-next aria-label="Następne zdjęcie">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+</div>
 
 <footer class="site-footer">
   <div class="container">
